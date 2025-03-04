@@ -1,0 +1,38 @@
+body {
+    background-image: url('https://via.placeholder.com/800x600?text=酒吧背景'); /* 可換成酒吧圖片 */
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+#game-container {
+    text-align: center;
+    margin-top: 100px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+#result-container {
+    margin-top: 20px;
+}
+
+#result {
+    font-size: 18px;
+}
+
+#customer-expression {
+    display: block; /* 預設隱藏由JS控制 */
+    margin: 0 auto; /* 置中 */
+    width: 200px; /* 放大 */
+    height: 200px;
+}

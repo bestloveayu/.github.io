@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<button onclick="checkAnswer()">提交</button>
+<button onclick="newTask()">新任務</button>
+<head>
+    <title>調酒師挑戰</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>顧客需求</h1>
+        <p id="customer-request">我想要清爽又帶點酸味的調酒。</p>
+        <input type="text" id="player-answer" placeholder="輸入調酒名稱">
+        <button onclick="checkAnswer()">提交</button>
+        <div id="result-container">
+            <p id="result"></p>
+            <img id="customer-expression" src="" alt="顧客表情" style="display:none;">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
